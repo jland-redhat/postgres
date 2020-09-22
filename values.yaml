@@ -1,9 +1,0 @@
----
-enabled: true
-name: "surveydb"
-app: "surveydb"
-postgresqlUsername: "surveydb"
-postgresqlPassword: "surveydb"
-postgresqlDatabase: "surveydb"
-service:
-  port: 5432
