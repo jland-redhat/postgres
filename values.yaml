@@ -7,3 +7,7 @@ postgresqlPassword: "surveydb"
 postgresqlDatabase: "surveydb"
 service:
   port: 5432
+
+
+global:
+  labels: []
