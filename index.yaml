@@ -3,12 +3,22 @@ entries:
   postgres-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-22T17:08:35.337608525-04:00"
+    created: "2020-09-23T11:10:02.059551749-04:00"
     description: A Helm chart for postgres
-    digest: 521f186f7225bc17ee68057c1041a4d143a66660f3befcb69142629221a136aa
+    digest: 0cccfcf33bdfe71a06581b7da157b94b5cf2a716dca1851f4ea8bc59ae4b89aa
     name: postgres-chart
     type: application
     urls:
-    - https://jland-redhat.github.io/postgres-helm-chart/postgres-chart-1.0.0.tgz
+    - https://jland-redhat.github.io/postgres-helm-chart/release/postgres-chart-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-23T11:10:02.056077852-04:00"
+    description: A Helm chart for postgres
+    digest: 5f7fe1f18f0e3e454762971aace62adbebdfa426c5f4853dc337f3ab634bff5b
+    name: postgres-chart
+    type: application
+    urls:
+    - https://jland-redhat.github.io/postgres-helm-chart/release/postgres-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2020-09-22T17:08:35.336541145-04:00"
+generated: "2020-09-23T11:10:02.054824565-04:00"
