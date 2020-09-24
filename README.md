@@ -11,5 +11,19 @@ git checkout release
 helm package .
 mv  postgres-chart*.tgz release/
 checkout release
-git repo index --url https://jland-redhat.github.io/postgres-helm-chart/
+helm repo index --url https://jland-redhat.github.io postgres-helm-chart/
+```
+
+
+## Testing chart
+
+### Add helm repo
+```
+helm repo add oauth https://jaland.github.io/oauth-helm-chart/
+helm repo list
+```
+
+### Deploy chart
+```
+helm install oauth/oauth-chart --name-template oauth
 ```
