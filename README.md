@@ -10,8 +10,9 @@ Creating new release
 git checkout release
 helm package .
 mv  postgres-chart*.tgz release/
-checkout release
-helm repo index --url https://jland-redhat.github.io postgres-helm-chart/
+helm repo index --url https://jland-redhat.github.io .
+git add --all
+git commit -m "Updating to version x.x.x"
 ```
 
 
