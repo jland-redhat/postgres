@@ -1,34 +1,14 @@
 apiVersion: v1
 entries:
-  postgres-chart:
+  postgres:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-25T11:55:54.224111504-04:00"
+    created: "2020-09-25T13:32:39.89698509-04:00"
     description: A Helm chart for postgres
-    digest: 5323f9e7d771f833606bd990dafb64a94a3a7e7eac712e92370328d148d3d3e5
-    name: postgres-chart
+    digest: 61015c5437dc7354bdd0fa1965dddc1d9405a08a50f02225954f3729ac7fd6e4
+    name: postgres
     type: application
     urls:
-    - https://jland-redhat.github.io/release/postgres-chart-1.1.0.tgz
+    - https://jland-redhat.github.io/postgres-1.1.0.tgz
     version: 1.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-09-25T11:55:54.220160318-04:00"
-    description: A Helm chart for postgres
-    digest: 1b3f9d67a8b5c44404edf369a07ef1458626e0245e43ea9a878691bcae1bfc2e
-    name: postgres-chart
-    type: application
-    urls:
-    - https://jland-redhat.github.io/release/postgres-chart-1.0.1.tgz
-    version: 1.0.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-09-25T11:55:54.216442293-04:00"
-    description: A Helm chart for postgres
-    digest: 5f7fe1f18f0e3e454762971aace62adbebdfa426c5f4853dc337f3ab634bff5b
-    name: postgres-chart
-    type: application
-    urls:
-    - https://jland-redhat.github.io/release/postgres-chart-1.0.0.tgz
-    version: 1.0.0
-generated: "2020-09-25T11:55:54.213894024-04:00"
+generated: "2020-09-25T13:32:39.891622023-04:00"
