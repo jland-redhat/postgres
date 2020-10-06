@@ -5,7 +5,8 @@ apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
   labels:
-    app: {{ .name }}
+    app: {{ $.Values.global.appname }}
+    name: {{ .name }}
     deploymentconfig: {{ .name }}
     {{- range $label := $.Values.global.labels }}
     {{ $label.key }} : {{ tpl $label.value $ }}
@@ -14,7 +15,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: {{ .name }}
+    app: {{ $.Values.global.appname }}
+    name: {{ .name }}
     deploymentconfig: {{ .name }}
   strategy:
     recreateParams:
@@ -24,7 +26,8 @@ spec:
   template:
     metadata:
       labels:
-        app: {{ .name }}
+        app: {{ $.Values.global.appname }}
+        name: {{ .name }}
         deploymentconfig: {{ .name }}
     spec:
       containers:

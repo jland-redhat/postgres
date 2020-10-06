@@ -1,7 +1,6 @@
 ---
 enabled: true
 name: "postgresdb"
-app: "postgresdb"
 postgresqlUsername: "user"
 postgresqlPassword: "change_me"
 postgresqlDatabase: "database"
@@ -10,4 +9,5 @@ service:
 
 
 global:
+  appanem: REQUIRED_APPNAME
   labels: []

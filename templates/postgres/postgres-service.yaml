@@ -6,7 +6,8 @@ kind: Service
 metadata:
   name: {{ .name }}
   labels:
-    app: {{ .name }}
+    app: {{ $.Values.global.appname }}
+    name: {{ .name }}
     {{- range $label := $.Values.global.labels }}
     {{ $label.key }} : {{ tpl $label.value $ }}
     {{- end}}
@@ -17,7 +18,8 @@ spec:
       protocol: TCP
       targetPort: {{ .service.port | default "5432" }}
   selector:
-    app: {{ .name }}
+    app: {{ $.Values.global.appname }}
+    name: {{ .name }}
     deploymentconfig: {{ .name }}
   sessionAffinity: None
   type: {{ .service.type | default "ClusterIP" }}
