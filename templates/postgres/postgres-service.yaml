@@ -19,7 +19,6 @@ spec:
       targetPort: {{ .service.port | default "5432" }}
   selector:
     app: {{ $.Values.global.appname }}
-    name: {{ .name }}
     deploymentconfig: {{ .name }}
   sessionAffinity: None
   type: {{ .service.type | default "ClusterIP" }}

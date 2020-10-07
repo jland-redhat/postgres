@@ -16,7 +16,6 @@ spec:
   replicas: 1
   selector:
     app: {{ $.Values.global.appname }}
-    name: {{ .name }}
     deploymentconfig: {{ .name }}
   strategy:
     recreateParams:
