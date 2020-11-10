@@ -3,7 +3,17 @@ entries:
   postgres:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-10T10:45:57.337115856-05:00"
+    created: "2020-11-10T10:47:08.982528375-05:00"
+    description: A Helm chart for postgres
+    digest: eb7166df8746703413ad0cef1c05452b4a6825015c69b3ffe19d8978f12e7eca
+    name: postgres
+    type: application
+    urls:
+    - https://jland-redhat.github.io/postgres-helm-chart/release/postgres-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-11-10T10:47:08.982250114-05:00"
     description: A Helm chart for postgres
     digest: 2b047aaa7837f8bcaefc7f21b4014a6ac81e24695f2d0ad2651b6e5fd185ee0b
     name: postgres
@@ -13,7 +23,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-10T10:45:57.336868502-05:00"
+    created: "2020-11-10T10:47:08.981951963-05:00"
     description: A Helm chart for postgres
     digest: c17de3e5dfd154d388c548164771e058d407d357d411dc4ce0525b75524b8e25
     name: postgres
@@ -23,7 +33,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-10T10:45:57.336580354-05:00"
+    created: "2020-11-10T10:47:08.981592281-05:00"
     description: A Helm chart for postgres
     digest: 21c2f6fdd2174df87d0ed96dedb3b311f941cc44f20d40c0a77594f118774c41
     name: postgres
@@ -33,7 +43,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-10T10:45:57.336173618-05:00"
+    created: "2020-11-10T10:47:08.981094184-05:00"
     description: A Helm chart for postgres
     digest: eaa68f88c3c50ed4b96b2bb964228d29f35cd9d49245d635814801c427ec7c9c
     name: postgres
@@ -43,7 +53,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-10T10:45:57.335783257-05:00"
+    created: "2020-11-10T10:47:08.980782621-05:00"
     description: A Helm chart for postgres
     digest: c0743112cea08ad3c9964729482e65a4f02bcb0148802c0c2df5bf5d29cca80a
     name: postgres
@@ -53,7 +63,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-10T10:45:57.33504766-05:00"
+    created: "2020-11-10T10:47:08.980527855-05:00"
     description: A Helm chart for postgres
     digest: 61015c5437dc7354bdd0fa1965dddc1d9405a08a50f02225954f3729ac7fd6e4
     name: postgres
@@ -61,4 +71,4 @@ entries:
     urls:
     - https://jland-redhat.github.io/postgres-helm-chart/release/postgres-1.1.0.tgz
     version: 1.1.0
-generated: "2020-11-10T10:45:57.329739724-05:00"
+generated: "2020-11-10T10:47:08.974970167-05:00"
